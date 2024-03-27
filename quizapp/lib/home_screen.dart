@@ -26,10 +26,10 @@ class _HomeScreenState extends State<HomeScreen> {
       const SizedBox(
         height: 80,
       ),
-      TextButton(
+      OutlinedButton(
           onPressed: showNewPage,
-          style: TextButton.styleFrom(
-              padding: const EdgeInsets.only(top: 20),
+          style: OutlinedButton.styleFrom(
+            padding: EdgeInsets.all(20),
               foregroundColor: Colors.white,
               textStyle: const TextStyle(fontSize: 16)),
           child: const Text('Quize Başla'))
