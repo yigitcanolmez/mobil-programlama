@@ -24,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
         style: TextStyle(color: Colors.white, fontSize: 28),
       ),
       const SizedBox(
+  
         height: 80,
       ),
       OutlinedButton(
