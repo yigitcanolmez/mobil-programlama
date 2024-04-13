@@ -6,12 +6,12 @@ class GradientContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const  BoxDecoration(
+      decoration: const BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.bottomCenter,
               end: Alignment.bottomLeft,
               colors: [Colors.red, Colors.white])),
-      child:  TextWidget(),
+      child: const TextWidget('merhaba'),
     );
   }
 }
